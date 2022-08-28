@@ -7,12 +7,11 @@ version: 2
 
 # Personal info
 name: Lucas Orsi
-title: Software and Firmware Engineer
+title: Electronics Engineer. Firmware & Software developer.
 email: lorsi@itba.edu.ar
-website: www.github.com/lorsi96/resume
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: facespics
@@ -47,8 +46,42 @@ linkedin_username: lorsi
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpeg
-about_content: | # this will include new lines to allow paragraphs
-  I'm an Electronics Engineer with a software engineering/development background. I'm passionate about working with both embedded systems and software development. I'm currently mostly interested in firmware development for embedded systems: to me, the perfect blend of both worlds.
+about_content: |
+  I'm an Electronics Engineer with a post-graduate degree in Embedded systems, 
+  passionate about working with embedded systems and developing software in
+  general.
+  In the early beginnings of my carreer I started working as Web developer and
+  later as an Android developer, which in turn led to my current job in the
+  area I enjoy the most: developing firmware for embedded systems. My strenghs
+  are more biased towards the software side of embedded systems, however, I'm
+  comfortable with working with schematics and hardware as needed.
+
+  - Embedded Systems skills:
+    - Programming languages/frameworks: C (often using OOP guidles), 
+    C++, FreeRTOS, Bare-Metal, Arm-DSP, CMake, Ceedling, Unity 
+    (C testing framework), CMock, OpenOCD, GDB.
+    - Platforms: ESP32, ESP8266, MSP430 (Microchip), various Cortex-m 
+    platforms (Atmel, NXP).
+    - Python: Numpy, Pandas, Matplotlib, PyFDA, threading/multiprocessing, 
+      Pytest, unittest.
+    - Docker: mostly creating development environments for different MCUs and
+      toolchains. Docker-compose.
+    - Protocols: SPI, I2C/I2S, Ethernet, USB, UART, USART, QSPI, ATCommands, 
+      WiFi, Bluetooth, JTAG, SWD, MQTT, and more. 
+    - Hardware: comfortable reading schematics and PCBs, using osciloscopes and
+      other general lab equipment. Basic Altium designer and KiCad knowledge. 
+    - Other: comfortable working on Linux environments and bash scripting. Basic
+      Matlab scripting.
+  
+  - High-level Software skills:
+    - Version control: comfortable using various git workflows, managing
+      issues, merge requests and continuous integration / delivery in remote
+      repositories. 
+    - Web development: basic knowledge on ReactJS, NextJS, NodeJS, Express, 
+      Flask, APIs,  serverless architectures. Use of cloud services and 
+      databases.
+    - Mobile development: Java, JUnit, AndroidSDK, adb    
+  
 content:
 #  - title: Projects # Title for the section
 #    layout: list # Type of content section (list/text)
@@ -75,14 +108,94 @@ content:
       - layout: left
         title: Skyloom Corp
         link: skyloom.co
-        # link_text: boringcompany.com
         sub_title: Software and Firmware developer
         caption: March 2021 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Skyloom is developing a spaceborne infrastructure based on optical 
+          communications technology and relay satellites placed in geostationary 
+          orbit.
 
+        description: |
+          - Developed and maintained MCU software in charge of controlling the 
+          main terminal's gimbal subsystem (azimuth-elevation control and 
+          unlatching). Programmed in <mark>C</mark>, combining 
+          <mark>CMake</mark>  and <mark>Ceedling</mark> buildsystems, featuring 
+          <mark>Unity</mark> &  <mark>CMock</mark> for unit-testing purposes.
+          
+          - Worked on automated tests and various tools for validating and 
+          characterizing the Gimbal subsystem. Most of themwritten in 
+          <mark>Python</mark> (using <mark>numpy</mark>, <mark>pandas</mark>, 
+          <mark>matplolib</mark>) with <mark>RobotFramework</mark> on top.
+          Also involved <mark>bash</mark> scripting for simpler tasks, working
+          on <mark>Linux</mark> environments (either through Linux hosts or
+          <mark>Docker</mark> containers). 
+          
+          - Used <mark>Gitlab</mark> services for the whole development workflow. 
+          Involved managing the <mark>CI</mark> system and developing/upgrading
+          custom <mark>Docker</mark> images/envrionments for building packages 
+          and generating sofware/tools tags/releases when appropriate.
+
+          - Other tasks involve gathering, agreeing, understanding and iteraing
+          over requirements with other teams. Especially the HDL team, with
+          whom we needed to agree the interfaces between the MCU and FPGA
+          of the system, and the hardware/control team, who required the 
+          high-level tools I developed for performing aliveness/bringup tests 
+          and/or performance evaluation tools.
+
+      
+      - layout: left
+        title: Ekumen
+        link: ekumenlabs.com
+        sub_title: Software developer.
+        caption: August 2019 - March 2021
+        quote: >
+          Ekumen is an international engineering boutique, provider of advanced 
+          software development services and technology.
+
+        description: |
+          - Developed and maintained Android moible applications 
+          (<mark>Java</mark> & <mark>Android SDK</mark>) for Google, aimed 
+          at collecting sensor data from different Android devices (phones, 
+          weareables) for further AI-algorithm development. Often, 
+          <mark>Python</mark> scripts for post-pocessing and reorganizing 
+          raw data collelcted were implemented.
+
+          - Improved the test coverage of a Python codebase aimed at manouvering
+          mechanical hardware for testing Phones IMUs and other sensors. Used
+          <mark>Python</mark>, mostly <mark>Pytest</mark>, featuring thorought 
+          hardware mocking. 
+          
+          - Used <mark>Docker</mark> to create a tool for deploying an already 
+          existing website that for Google ARCore team. This involved gaining 
+          a general understanding of an entire codebase that used a wide variety
+          of programming languages, databases and frameworks (Javascript, 
+          Python, Django, Gulp and more) to then replicate an encapsulated 
+          Dockerized tool to let Googlers update and re-deploy the site without 
+          delving into the website's code.          
+          
+          - Participated as a trainer teaching C++/Python basic to newcomer 
+          trainees.
+          
+          - Completed internal courses in Cpp, ROS and Docker.
+
+      
+      - layout: left
+        title: IBM
+        link: ibm.com
+        sub_title: Full-Stack & IOT Developer 
+        caption: August 2018 - August 2019
+        description: |
+          - Designed and Developed web applications for clients to showcase the 
+          capabilities of IBM Cloud tools (Javascript, NodeJS, ReactJS, Python, 
+          Serverless, IBMCLoud, MongoDB, Docker, Kubernetes, S3, WatsonIOT, 
+          HTML).
+
+         - Developed demos to showcase IBM's IOT platform (C, Cpp, 
+         NodeRed, Arduino, ESP8266, ESP32, MQTT, Python).
+
+         - Worked in a cross-functional team using Agile practices (Trello, 
+         Slack).
+      
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -90,8 +203,6 @@ content:
         title: University of Buenos Aires (UBA)
         caption: 2022 - Present
         sub_title: Master in Embedded Systems (in progress)
-        quote: >
-          WIP.
         description: | # this will include new lines to allow paragraphs
           WIP.
 
@@ -100,9 +211,7 @@ content:
       - layout: left
         title: University of Buenos Aires (UBA)
         caption: 2021 - 2022
-        sub_title: Embedded Systems Speciallist
-        quote: >
-          WIP.
+        sub_title: Post-graduate degree in Embedded systems
         description: | # this will include new lines to allow paragraphs
           WIP.
 
@@ -112,8 +221,6 @@ content:
         title: Buenos Aires Technological Institute (ITBA)
         caption: 2013 - 2019
         sub_title: Electronics Engineer
-        quote: >
-          WIP.
         description: | # this will include new lines to allow paragraphs
           WIP.
 
