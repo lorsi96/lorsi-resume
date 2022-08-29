@@ -177,24 +177,27 @@ content:
           trainees.
           
           - Completed internal courses in Cpp, ROS and Docker.
-
       
       - layout: left
         title: IBM
         link: ibm.com
         sub_title: Full-Stack & IOT Developer 
         caption: August 2018 - August 2019
+        quote: > 
+          International Business Machine Corporation.
+
         description: |
           - Designed and Developed web applications for clients to showcase the 
           capabilities of IBM Cloud tools (Javascript, NodeJS, ReactJS, Python, 
           Serverless, IBMCLoud, MongoDB, Docker, Kubernetes, S3, WatsonIOT, 
           HTML).
 
-         - Developed demos to showcase IBM's IOT platform (C, Cpp, 
-         NodeRed, Arduino, ESP8266, ESP32, MQTT, Python).
+          - Developed demos to showcase IBM's IOT platform (C, Cpp, 
+          NodeRed, Arduino, ESP8266, ESP32, MQTT, Python).
 
-         - Worked in a cross-functional team using Agile practices (Trello, 
-         Slack).
+          - Worked in a cross-functional team using Agile practices (Trello, 
+          Slack).
+
       
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -203,33 +206,45 @@ content:
         title: University of Buenos Aires (UBA)
         caption: 2022 - Present
         sub_title: Master in Embedded Systems (in progress)
-        description: | # this will include new lines to allow paragraphs
-          WIP.
+        description: |
+          - Implementation of custom Real Time Operating systems from scratch
+          using the Cortex M4 architecture. 
+          - Digital signal processing using ARM-DSP libraries. FIR filter design
+          using PyFDA for real-time application in MCUs. 
 
-          WIP.
 
       - layout: left
         title: University of Buenos Aires (UBA)
         caption: 2021 - 2022
         sub_title: Post-graduate degree in Embedded systems
         description: | # this will include new lines to allow paragraphs
-          WIP.
-
-          WIP.
+          - Basic understanding of ARM architecture at assembly level.
+          - Development of RTOS applications, featuring a wide variety of
+          synchronization primitives (queues, mutexes, event flags), hardware 
+          interruptions dynamic memory management, active object design pattern 
+          and more.
+          - Development of General purpose operating system applications, both
+          using Linux processes / bash scripting and Python.
+          - VHDL development in Arty-Z7 board. Created a custom IP core for
+          generating waveforms in the FPGA and then interfaced it with the 
+          internal MCU an AXI Bus.
 
       - layout: left
         title: Buenos Aires Technological Institute (ITBA)
         caption: 2013 - 2019
-        sub_title: Electronics Engineer
+        sub_title: Electronics Engineering Degree
         description: | # this will include new lines to allow paragraphs
-          WIP.
-
-          WIP.
+          - Graduation Project: a pet localization system prototipe using
+          ESP32 and SIGFOX. Included a small serverless cloud architecture
+          using AWS services and a minimal single-page web application.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      WIP.
+      When I'm not coding, I'm usually pretty active. I train calisthenics
+      most days of the week, and also enjoy biking, running,
+      bouldering and playing tenis ocassionaly. I also enjoy playing the guitar,
+      listening to music and sharing time with my friends and family. 
 
 # Footer
 footer_show_references: true
